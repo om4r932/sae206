@@ -37,6 +37,10 @@ li{
     position: relative;
 }
 
+a{
+    color:#fff
+}
+
 li:hover{
     
     color:#d84747
