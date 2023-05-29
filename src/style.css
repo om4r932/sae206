@@ -67,17 +67,20 @@ a {
 
 }
 
-.paragraphe3 {
+/* Comme ca on évite les ambiguites*/
+.paragraphe3-avion {
+    background-color: #fff;
+    font-family: karla;
     display: grid;
     grid-template-columns: 1fr 1fr; /* Divise la div en deux colonnes de largeur égale */
     grid-gap: 20px; /* Ajoute un espace de 20px entre les éléments */
   }
   
-  #p2 {
+  #p2-avion {
     grid-column: 1 / 2; /* Définit la position de la div p2 sur la première colonne */
   }
   
-  .image-p2 {
+  .image-p2-avion {
     grid-column: 2 / 3; /* Définit la position de l'image sur la deuxième colonne */
   }
 
