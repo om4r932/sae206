@@ -121,6 +121,14 @@ a {
     font-style: italic;
 }
 
+
+#bg{
+
+    filter:blur(3px);
+    width: 100%;
+}
+
+
 .paragraphe1 {
     position: relative;
     width: 100%;
@@ -236,3 +244,45 @@ footer{
 
     border-top:black solid 5px;
 }
+
+.epcont{
+
+    position: relative;
+}
+
+.ep-overlay{
+
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    display:flex;
+
+}
+
+.card {
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 4px;
+    background-color:#fff;
+    margin-right: 40px;
+
+
+  }
+  
+  .card-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: karla;
+    margin-bottom: 10px;
+    border-bottom: solid black;
+
+  }
+  
+  .card-description {
+    font-family: karla;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
